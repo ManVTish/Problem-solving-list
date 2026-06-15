@@ -1,0 +1,9 @@
+g++ -g -lm -std=c99 -w main.cpp
+
+gdb a.out
+
+layout next
+
+break main
+
+run
